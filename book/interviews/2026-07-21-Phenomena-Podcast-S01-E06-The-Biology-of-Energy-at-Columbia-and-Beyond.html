@@ -1,0 +1,929 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2026-07-21 Phenomena Podcast S01 E06 - The Biology of Energy at Columbia and B... - Martin Picard: Mitochondria and Energy</title>
+        <!-- Custom HTML head -->
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="Plain-language wiki of 24 long-form YouTube interviews with Martin Picard, Columbia University, 2019 to 2026.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../about.html">About</a></li><li class="chapter-item expanded affix "><li class="part-title">Martin Picard</li><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> The Big Picture</a></li><li class="chapter-item expanded "><a href="../interviews.html"><strong aria-hidden="true">2.</strong> The 24 Interviews</a></li><li class="chapter-item expanded "><a href="../concepts/not-powerhouses.html"><strong aria-hidden="true">3.</strong> Not Just Powerhouses</a></li><li class="chapter-item expanded "><a href="../concepts/energy-budget.html"><strong aria-hidden="true">4.</strong> The Energy Budget</a></li><li class="chapter-item expanded "><a href="../concepts/energy-resistance.html"><strong aria-hidden="true">5.</strong> Energy Resistance</a></li><li class="chapter-item expanded "><a href="../concepts/gray-hair.html"><strong aria-hidden="true">6.</strong> Gray Hair</a></li><li class="chapter-item expanded "><a href="../concepts/gdf15.html"><strong aria-hidden="true">7.</strong> GDF15</a></li><li class="chapter-item expanded "><a href="../concepts/stress-and-mind.html"><strong aria-hidden="true">8.</strong> Stress and the Mind</a></li><li class="chapter-item expanded "><a href="../concepts/intrinsic-health.html"><strong aria-hidden="true">9.</strong> Intrinsic Health</a></li><li class="chapter-item expanded "><a href="../concepts/move-then-rest.html"><strong aria-hidden="true">10.</strong> Move, Then Rest</a></li><li class="chapter-item expanded "><a href="../concepts/glossary.html"><strong aria-hidden="true">11.</strong> Glossary</a></li><li class="chapter-item expanded affix "><li class="part-title">Full captions</li><li class="chapter-item expanded "><a href="../interviews/2019-02-07-Understanding-the-Behaviour-of-Mitochondria-Martin-Picard-565.html"><strong aria-hidden="true">12.</strong> 2019-02-07 Understanding the Behaviour of Mitochondria - Martin Picard #565</a></li><li class="chapter-item expanded "><a href="../interviews/2020-03-28-Interview-with-Dr-Martin-Picard-Creators-Unite.html"><strong aria-hidden="true">13.</strong> 2020-03-28 Interview with Dr Martin Picard - Creators Unite</a></li><li class="chapter-item expanded "><a href="../interviews/2022-05-12-A-Woman-s-Hair-Lost-Its-Color-as-Stress-Rose-Then-Regained-It-Martin-Picard-Epis.html"><strong aria-hidden="true">14.</strong> 2022-05-12 A Woman's Hair Lost Its Color as Stress Rose, Then Regained It | Ma...</a></li><li class="chapter-item expanded "><a href="../interviews/2023-08-17-Mitochondria-The-Key-To-Disease-and-Mental-Health-with-Dr-Martin-Picard.html"><strong aria-hidden="true">15.</strong> 2023-08-17 Mitochondria - The Key To Disease and Mental Health with Dr. Martin...</a></li><li class="chapter-item expanded "><a href="../interviews/2023-11-07-Dr-Martin-Picard-The-Power-of-Mitochondria-The-Future-of-Medicine-More.html"><strong aria-hidden="true">16.</strong> 2023-11-07 Dr. Martin Picard: The Power of Mitochondria, The Future of Medicin...</a></li><li class="chapter-item expanded "><a href="../interviews/2024-04-09-Martin-Picard-Mitochondrial-Psychobiology-Neuroplasticity-Stress-and-Brain-Healt.html"><strong aria-hidden="true">17.</strong> 2024-04-09 Martin Picard: Mitochondrial Psychobiology, Neuroplasticity, Stress...</a></li><li class="chapter-item expanded "><a href="../interviews/2024-06-29-Mind-Body-Link-Discovered-Mitochondria-In-Stress-Disease-Dr-Martin-Picard.html"><strong aria-hidden="true">18.</strong> 2024-06-29 Mind-Body Link Discovered! Mitochondria In Stress & Disease | Dr. M...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-04-21-How-Mitochondria-Shape-Your-Mind-Mood-Mental-Health-with-Dr-Martin-Picard.html"><strong aria-hidden="true">19.</strong> 2025-04-21 How Mitochondria Shape Your Mind, Mood, & Mental Health with Dr. Ma...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-05-21-Could-mitochondria-rewrite-the-rules-of-biology-Science-Quickly-Video-Podcast.html"><strong aria-hidden="true">20.</strong> 2025-05-21 Could mitochondria rewrite the rules of biology? | Science Quickly ...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-06-02-Do-Mitochondria-Hold-The-Key-to-Mental-Health.html"><strong aria-hidden="true">21.</strong> 2025-06-02 Do Mitochondria Hold The Key to Mental Health?</a></li><li class="chapter-item expanded "><a href="../interviews/2025-08-07-Energising-the-mind-linking-mitochondria-and-mental-health-Brains-On-Brains.html"><strong aria-hidden="true">22.</strong> 2025-08-07 Energising the mind: linking mitochondria and mental health | Brain...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-08-19-The-Mitochondrial-Key-to-Longevity-Stress-Holistic-Health-with-Martin-Picard-PhD.html"><strong aria-hidden="true">23.</strong> 2025-08-19 The Mitochondrial Key to Longevity, Stress, & Holistic Health with ...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-09-19-A-Masterclass-in-Mitochondria-Martin-Picard-PhD-Uncommon-Living-17.html"><strong aria-hidden="true">24.</strong> 2025-09-19 A Masterclass in Mitochondria | Martin Picard, PhD | Uncommon Livin...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-10-06-Dr-Susan-George-Dr-Martin-Picard.html"><strong aria-hidden="true">25.</strong> 2025-10-06 Dr. Susan George & Dr. Martin Picard</a></li><li class="chapter-item expanded "><a href="../interviews/2025-10-29-Your-Health-Depends-on-How-Easily-Energy-Flows-Martin-Picard-Nirosha-Murugan-Epi.html"><strong aria-hidden="true">26.</strong> 2025-10-29 Your Health Depends on How Easily Energy Flows | Martin Picard & Ni...</a></li><li class="chapter-item expanded "><a href="../interviews/2025-11-19-How-to-Restore-Your-Body-s-Energy-and-Heal-from-Within.html"><strong aria-hidden="true">27.</strong> 2025-11-19 How to Restore Your Body’s Energy and Heal from Within</a></li><li class="chapter-item expanded "><a href="../interviews/2025-12-15-Improve-Energy-Longevity-by-Optimizing-Mitochondria-Dr-Martin-Picard.html"><strong aria-hidden="true">28.</strong> 2025-12-15 Improve Energy & Longevity by Optimizing Mitochondria | Dr. Martin ...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-07-02-The-Mitochondria-Doctor-This-Reverses-Gray-Hair-Makes-You-Feel-Young-Again-Fixes.html"><strong aria-hidden="true">29.</strong> 2026-07-02 The Mitochondria Doctor: This Reverses Gray Hair, Makes You Feel Yo...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-07-21-Phenomena-Podcast-S01-E06-The-Biology-of-Energy-at-Columbia-and-Beyond.html" class="active"><strong aria-hidden="true">30.</strong> 2026-07-21 Phenomena Podcast S01 E06 - The Biology of Energy at Columbia and B...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-08-17-No-1-Mitochondria-Psychobiologist-Mitochondria-Create-Consciousness-and-Near-Dea.html"><strong aria-hidden="true">31.</strong> 2026-08-17 No. 1 Mitochondria Psychobiologist: "Mitochondria Create Consciousn...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-10-11-Can-Relieving-Stress-Actually-Reverse-Biological-Age-Dr-Martin-Picard.html"><strong aria-hidden="true">32.</strong> 2026-10-11 Can Relieving Stress Actually Reverse Biological Age? | Dr Martin P...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-10-30-Do-Our-Life-Experiences-Change-Our-Biology.html"><strong aria-hidden="true">33.</strong> 2026-10-30 Do Our Life Experiences Change Our Biology?</a></li><li class="chapter-item expanded "><a href="../interviews/2026-11-06-Mitochondria-are-NOT-Powerhouses-Here-s-What-They-Really-Do-Dr-Martin-Picard.html"><strong aria-hidden="true">34.</strong> 2026-11-06 Mitochondria are NOT Powerhouses. Here's What They Really Do | Dr. ...</a></li><li class="chapter-item expanded "><a href="../interviews/2026-11-11-Reverse-Gray-Hair-Aging-Science-of-Energy-Steps-To-Reverse-Graying-Dr-Martin-Pic.html"><strong aria-hidden="true">35.</strong> 2026-11-11 Reverse Gray Hair & Aging- Science of Energy, Steps To Reverse Gray...</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Martin Picard: Mitochondria and Energy</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="phenomena-podcast-s01-e06---the-biology-of-energy-at-columbia-and-beyond"><a class="header" href="#phenomena-podcast-s01-e06---the-biology-of-energy-at-columbia-and-beyond">Phenomena Podcast S01 E06 - The Biology of Energy at Columbia and Beyond</a></h1>
+<ul>
+<li>Channel: Phenomena Healing</li>
+<li>Date: 2026-07-21</li>
+<li>Length: 76 min</li>
+<li>URL: https://www.youtube.com/watch?v=t1WVS7QdtrY</li>
+<li>Captions: youtube-en-orig</li>
+<li>Words: 12210</li>
+</ul>
+<p>Picture this. At a conference in upstate</p>
+<p>New York in 2025, mitochondria expert</p>
+<p>Dr. Martin Pequard of Columbia University is standing in front of an audience of fellow scientists giving a presentation. On the monitor beside him</p>
+<p>is a looping video of a single lit</p>
+<p>candle, its flame flickering against the</p>
+<p>darkness. This is a fairly relevant analogy for</p>
+<p>what [music] we are. What you see here is something that is organic, right? The</p>
+<p>the structure of the of the candle is</p>
+<p>like this waxy [music] carbon-based stuff which is very similar to your body in many ways, right? You're made of the same stuff this candle. [music] You have a few more proteins and a few more other things, but mostly it's it's the same kind of stuff. A flame consumes oxygen</p>
+<p>and releases CO2, which is exactly what you do when you breathe. You breathe in oxygen, you breathe out CO2, and that happens in your mitochondria. And [music] we'll talk about this a little bit. Uh what you see also with this flame is that it's flexible and it's</p>
+<p>sensitive. It responds very sensitively</p>
+<p>to the movement of air around it, but it's also resilient. Right? There's a quality about it that's resilient. Just like [music] us, we're very sensitive in some ways, but also very resilient. And at the same time, it's always in movement. It's dynamic, right? Second by</p>
+<p>second, [music] it's never the same. It's adaptable. There's a warmth quality</p>
+<p>to it [music] and a bright quality to it. It releases a light just like we do.</p>
+<p>He releases [music] photons and it's ephemeral, right? It has a finite</p>
+<p>lifespan. One day [music] this candle will be burnt out and then we'll die. And just like every living creature on</p>
+<p>on the planet has this kind [music] of of movement. So we are energetic processes.</p>
+<p>Welcome to Phenomena, the science and</p>
+<p>stories of energy healing. I'm your</p>
+<p>host, Ivy Ross.</p>
+<p>Today, we're going to tell a different [music] kind of story. In previous episodes, we've heard from healers and the people they've healed. We've heard from scientists who have been conducting rigorous research to document and explain what happens during these healing experiences. [music] But at the core of all those stories,</p>
+<p>there's one key question we haven't yet asked. What is energy? What is this</p>
+<p>force that animates us that gives rise</p>
+<p>to consciousness that can be channeled to heal ourselves and others? What does</p>
+<p>it mean not just to heal but at a more</p>
+<p>essential level to be alive?</p>
+<p>And what has our modern medical perspective missed about all of this?</p>
+<p>Here's Dr. Martin Pard again.</p>
+<p>We've diluted ourselves over [music] the last 100 years or so that we are molecular machines. And this is what biomedical science is based on. And this</p>
+<p>is so pervasive that it's like the water for fish, right? The fish is not even aware that it lives in water because it's just part of of of its life, right? From the moment it's born. If you grow up as a as a normal human being in this</p>
+<p>modern day culture, you grow up in this same world where materialism and</p>
+<p>physicalism is just is is your water and</p>
+<p>you you're not even aware of it. And if you grow up as a scientist in academia, it's even worse and you become indoctrinated pretty strongly. uh so much so that you you start to kind of adopt some dogmatic perspective and then</p>
+<p>if someone believes something else that you don't believe that doesn't fit your model then there's this kind of uh extreme resistance to it to say the</p>
+<p>least. Martin is a professor of behavioral medicine at Columbia University's department of neurology where he leads the mitochondrial psychobiology lab and he's speaking from</p>
+<p>a place of deep professional and academic experience but also from his</p>
+<p>own life story. After his presentation</p>
+<p>we talked to Martin and he shared that growing up his mother was a nurse who did home care visits and sometimes he</p>
+<p>came along straight from hockey practice. She would pick me up at hockey</p>
+<p>practice and some sometimes she would say, &quot;Sorry, I got a call. Like we need to go see this patient. Sometimes she had patients that were in really bad shape and then like the person was dying and it was clear in the next few hours they were going to go and the family was there like in distress. So I got to to see um pretty early on like what human</p>
+<p>suffering is. And some people did amazing, you know, they weren't supposed to recover and then they recovered and they healed, right? And this was really profound. And some other people, you know, their wound is getting bad and then they would they get like a bed sore and then they get an infection and then eventually they die. And I think I</p>
+<p>wanted to understand like why is that? Like what is it that allows some people to heal, right? That gives them the strength and the the capacity to just</p>
+<p>become whole again after an injury, after a surgery, and some other people not. That's a question that's haunted Martin from childhood all the way through school through his PhD program and his postdoal fellowship. And it's</p>
+<p>fair to say it still haunts him today.</p>
+<p>Why could some people seem to heal and</p>
+<p>some can't? Why does the same affliction</p>
+<p>land differently on each of us? As</p>
+<p>Martin said, conventional medicine tends</p>
+<p>to see our bodies as molecular machines.</p>
+<p>a view of life that assumes everything has a mechanical explanation. But the</p>
+<p>closer we look, the less that seems to</p>
+<p>be the whole story. Even some of the</p>
+<p>biggest recent achievements in medical science have this flaw in their foundation. The human genome project, which was like a 10-year endeavor, had just been completed in 2001, and then 2003 is when</p>
+<p>I started college. Like it was like we still had hope. The scientific community still had hope. We were going to find the gene for heart disease. and the gene for cancer and we're going to find the gene for Alzheimer's and the gene for you know every disease. This was the</p>
+<p>hope. This was a hypothesis, right? If the human genome project had been a clinical trial, it would have failed its primary endpoint, right? There's no gene</p>
+<p>for cardiovascular disease. There's no gene for cancer. There's a a few genetic</p>
+<p>variants that explain like a few percentage of predisposition, but you</p>
+<p>know there's very very few kind of genetic defects that are that are fully penetrint. Meaning like if you have this defect and this genetic thing, you will</p>
+<p>get sick, right? That there's that is a very small sliver of the truth. And the</p>
+<p>reality is there's a lot of plasticity and and you know malleability to to biology and to health. And even when there's like a severe genetic defect that predisposes you to disease, it's not written anywhere when you're going to get sick, right? Who is going to get sick with what at what time point? Like</p>
+<p>this their life is dynamic, health is dynamic. And I just felt like this was</p>
+<p>this was not the truth. And this was back in the days like when if you clone the gene, you as a scientist, this would</p>
+<p>make your career, right? You would win some prize or like you you'd get tenure as a professor. like discovering a gene was like a big deal. And I think this</p>
+<p>this taps into like something deep like</p>
+<p>some deep bias and maybe it was like a</p>
+<p>bit in in rebellion against the fact that I was not learning what I was hoping to learn. How the human mind, you know, the human spirit actually connects with the biology and why people get sick, how people heal and you know, why some people can heal, some people can't. There was none of this. Like everything I was learning was like cell biology, even physiology was treating the body like a machine. Seeing the body like a machine means more than just reducing health into pieces and parts that can be tinkered with and fixed separate from the whole. It means treating every</p>
+<p>disease the same way regardless of the</p>
+<p>person who has it. You know, you have three people with the same disease, right? They have migraine. One person's migraine is going to be worse with heat, right? And and better in the morning. Uh and then another person, their migraine is going to get better with cold. And it always gets worse as the day, you know, progresses. And then another person it just lasts like days and it's immovable by right these are three different disease entities and they have the same label right and therefore in medicine we treat them the same way and then we try this drug this drug this drug we have no way of really individualizing or personalizing treatments in a way that</p>
+<p>you know we need to there's a famous quote by a physician Oler who said it is</p>
+<p>much more important to know which person has a disease than to know which disease a person has right so you should be treating the individual and in some ways</p>
+<p>like medicines start there but then it very quickly becomes like this person is a molecular machine and then we need to identify the diagnosis and then find what drug is going to fix that diagnosis right or fix that symptom. In this perspective, medicine is treating the label, not the person. And while that</p>
+<p>approach obviously benefits many, many people, seeing the body as a machine and</p>
+<p>healthcare as a system can also overlook</p>
+<p>the individual, it's a framework that can't see the differences between us.</p>
+<p>We spoke to two different researchers who have explored this same contradiction from different angles. First, meet Dr. Richard Hamashlog.</p>
+<p>Maybe I can introduce myself by saying</p>
+<p>two things. First, I'm a recovering biochemist. So, what that means is I had</p>
+<p>about 25 years of a career in basic</p>
+<p>research in neurobiology. Uh my PhD is</p>
+<p>in biochemistry. I then made a career</p>
+<p>switch to acupuncture research which I</p>
+<p>greatly enjoyed for about 10 years. And</p>
+<p>then um I retired and in my retirement</p>
+<p>I've become a bofielder.</p>
+<p>What can I say? Um, I've gotten fascinated because I think the bio field</p>
+<p>is a link between conventional biio</p>
+<p>medicine, certainly the body that</p>
+<p>conventional biio medicine looks at and the body that acupuncture and Chinese medicine looks at which is a very different body based on flow and uh</p>
+<p>interconnections. Bofield is a term we've heard many times in this podcast. It was coined in the</p>
+<p>early 90s by a committee under the newly established office of alternative medicine at the National Institutes of Health and Dr. Hammershag has been one</p>
+<p>of the key figures leading the study and exploration of the bofield. In fact, he</p>
+<p>literally wrote the paper on it back in</p>
+<ol start="2015">
+<li>Think of bio field as an umbrella term</li>
+</ol>
+<p>that covers three different but certainly related types of phenomena. So</p>
+<p>first of what I call little B bof fields</p>
+<p>and those are physiological activities</p>
+<p>that we know exist in the body that 247</p>
+<p>are involved in regulations. The</p>
+<p>electronphiloggram um the electroc cardiogram those are electromagnetic fields biofotons is</p>
+<p>another area of great interest. light</p>
+<p>particles that appear to be released as</p>
+<p>signals between cells. So those are all</p>
+<p>little B bofields. And the second area</p>
+<p>is what we'll then call big B biofield</p>
+<p>and that is a composite field perhaps a</p>
+<p>composite of all of these little bofields in the body. So it's a field that exists within the body but emanates</p>
+<p>from the body. It's something that all living things contribute to that we kind of exist within. Dr. Hammershag's description here sounds almost exactly like Anna Herring's description of chi fields in episode 3.</p>
+<p>This fractal nesting doll image of little fields of energy combining to make bigger and bigger fields. And</p>
+<p>similarly he goes on to explain the interconnection between these fields too. Big Boffield also asks us to</p>
+<p>consider that I don't end at my skin. I</p>
+<p>think we're beginning to have a strong</p>
+<p>sense of that and that's where a lot of</p>
+<p>bofield phenomena will one day be</p>
+<p>explained on the basis of what that</p>
+<p>means. What is this field that we all</p>
+<p>interact within and that is not confined</p>
+<p>to the me which somehow we've grown up</p>
+<p>being taught exists within my body.</p>
+<p>And the third way in which the term biofield is used of course that we're</p>
+<p>all familiar with are bofield therapies.</p>
+<p>Those are the therapies we've been exploring through this whole series. Raiki, Chiang, distance healing and</p>
+<p>more. This framework of big B and little</p>
+<p>B bofields is a way of viewing our bodies not just as machines but also as</p>
+<p>overlapping and interconnected fields of energy and information. It's a more fluid and nuanced view that</p>
+<p>better answers Dr. Peard's questions</p>
+<p>about the variability and individuality</p>
+<p>that a mechanistic perspective overlooks. Which leads us to our third</p>
+<p>and final researcher of the episode.</p>
+<p>My name is Neil Thiece. I'm an adjunct</p>
+<p>professor of pathology at New York University Gman School of Medicine. I</p>
+<p>worked with the liver transplant team for about 35 years. That got me into</p>
+<p>adult stem cell research, which got me into complexity theory, which got me</p>
+<p>into consciousness studies and integrative medicine and science,</p>
+<p>religion, dialogue. And then independent</p>
+<p>of that I wound up doing some novel</p>
+<p>anatomy, human anatomy, discovering that</p>
+<p>something called the interstitium, the spaces between cells and around tiny blood vessels, turns out to be a bodywide network through all the fascia of the body connecting everything and it's a communication network for the entire body. There's a lot to explore with the interstitium which has amazing potential for explaining how bofield therapies and energy healing might actually work in the body's biology. But</p>
+<p>I don't want to skip over something else Dr. The said and that's complexity</p>
+<p>theory. He's written an incredible book called notes on complexity and we'll link to it and other sources on our website at phenomenahhealing.com.</p>
+<p>Complexity theory is based on an idea</p>
+<p>similar to what Dr. Hammershag was saying about little B and big B bof</p>
+<p>fields this cascade of interconnecting</p>
+<p>influences. Dr. Ths was introduced to</p>
+<p>the idea through an interesting program in the UK that connected artists and scientists in dialogue. It came up during a conversation he was having with an artist named Jane Profett. I told her</p>
+<p>about stem cell stuff and she said, &quot;Oh,</p>
+<p>that sounds to me like these complexity</p>
+<p>people who talk about ants, ant colonies in slime molds.&quot; And the way I was</p>
+<p>talking about cells moving in the body was how they would talk about ants moving in a colony. And so this is where</p>
+<p>I really learned about complexity theory. I was left with this really</p>
+<p>difficult puzzle because as a scientist</p>
+<p>I thought well is my body this thing or</p>
+<p>is it a colony made up of cells the way</p>
+<p>a colony of ants is made up of ants in which case that colony isn't really a</p>
+<p>thing so maybe my body is not a thing but if it's not then what is it and [snorts] from a western scientific and medical perspective I thought there had to be a right answer to this question or at least a more right answer like Dr. Pard Neil thesis had stumbled</p>
+<p>into a question he couldn't answer or ignore. What they've both called a</p>
+<p>scientific an unanswerable</p>
+<p>question. One afternoon walking in New</p>
+<p>York City, Dr. The had an incredible</p>
+<p>experience, a moment that led to what I could only describe as a scientific and spiritual epiphany.</p>
+<p>I was [music] walking in New York City</p>
+<p>down 19th Street coming to the</p>
+<p>intersection with Park Avenue and there was a stop sign. [music] But I was obsessing in my head over am I</p>
+<p>a body [music] or cells? Am I a body or cells? In Zen practice, we talk about coons, which [music] are these little puzzles or or concepts or questions that we can't [music] keep ourselves from</p>
+<p>pursuing and digging into. So, this had become a co-on for me. [music] I'm standing there thinking, &quot;Body or cells? Am I a body or my cells?&quot; And then the light changed [music] and the people next to me on the curb stepped off and I couldn't step off myself because my leg had turned into a flock of cells.</p>
+<p>It was strange. [music] And then it cohered back into a leg and I crossed the street. Two weeks later, [music] I was sitting in the Zeno where [music]</p>
+<p>people come to meditate and I lit the incense on the altar and I sat down to meditate [music] and instead of doing what my official Zen practice was, I was sitting there obsessing am I a body or cells? [music] Body or cells. And then at one point I looked up.</p>
+<p>I always get tripped up when I talk about this. It's hard to talk about. Um,</p>
+<p>I looked up and saw the stick of incense</p>
+<p>on the altar becoming smoke and I</p>
+<p>thought, &quot;Oh, stick or smoke, body or</p>
+<p>cells. It isn't one or the other. [music] It's both and, not either or.&quot; And in</p>
+<p>that moment, instead of it being a concept, it was this really visceral experience [music] of what the Buddhists call emptiness. um emptiness of inherent</p>
+<p>existence that things appear to be</p>
+<p>things or phenomena arising from smaller</p>
+<p>things depending on your perspective [music] and neither one is more correct than the other in Buddhist terms the absolute versus the relative they are not [music] separate they aren't different it's just how do you experience them and in that moment suddenly the science [music] and the</p>
+<p>spiritual practice just became one</p>
+<p>[music] single thing in a in a really indisp utable way for me.</p>
+<p>Martin Peard's beautiful link between the light of a candle and the movement of life. Richard Hamish flagag's</p>
+<p>bofields overlapping and interconnecting. Anneal thesis vision of</p>
+<p>body and cells, stick and smoke. We are</p>
+<p>not machines. We are dynamic processes.</p>
+<p>the incense becoming smoke, the burning</p>
+<p>flame. For me, that's the answer to what</p>
+<p>is energy at a philosophical level. But</p>
+<p>next, we're going to hear what that answer could be at a scientific level.</p>
+<p>[music]</p>
+<p>For now, let's just set aside these abstract ideas about energy. While</p>
+<p>Martin, Richard, and Neil might be</p>
+<p>skeptical of a purely mechanistic model of the human body, they're also experts</p>
+<p>in their fields of scientific research.</p>
+<p>They're big believers in the data, and</p>
+<p>they've got plenty to share. To</p>
+<p>understand energy from a physiological perspective, let's start small. Smaller</p>
+<p>than cells. In fact, inside cells where</p>
+<p>energy lives in the body. Mitochondria,</p>
+<p>extraordinary structures. Martin Pequard has spent his career studying. There's something really special about mitochondria. Mitochondria are the reason we exist as multisellular bodies</p>
+<p>with organs. And the fact that we're thinking, feeling, conscious human beings and animals is because mitochondria, because of the history of life. The only thing that existed in the planet about two billion years ago was</p>
+<p>single cells, a little bacteria like on the seafloor. And at some point, there's a big anorobic bacterium that couldn't use oxygen for transforming energy that</p>
+<p>either engulfed a small bacterium that was aerobic. It could use oxygen to make energy. So either the big one engulfed the small one or the small one actually colonized the big one. We don't really know. But the end that doesn't matter. The end product is that there's</p>
+<p>symbiosis working together from the inside. Endo symbiosis it's called. And</p>
+<p>endo symbiosis and mitochondria allowed</p>
+<p>somehow cells to become social. And now</p>
+<p>you had like instead of bacteria kind of all fighting against each other. They're just wanting to make more of themselves. This really selfish kind of behavior.</p>
+<p>That behavior was transformed into a more social a more kind of communal collective behavior. And there's very good evidence the advent of mitochondria</p>
+<p>is what made this possible. Now cells</p>
+<p>had developed the ability to talk to each other probably in a more complex ways. And then you had a bunch of cells that stuck together and said, &quot;Hey, you guys get some food and we're going to do the moving, right? The propulsion.&quot; And then you had like the beginning of you have muscle and they have a stomach. And then at some point some cells probably differentiated and these became really good at integrating stuff and like smelling stuff. And then that became the the forebearer of the brain, right? But that required cells to to create like a bigger self. And then when you have a</p>
+<p>bunch of cells that that are stuck together and then they are connected</p>
+<p>energetically connected and we know that happens in part through bio electricity. So they share electrical current between them. Then they can feel each other and not only can they feel each other they become each other. So then if your buddy the cell next door is suffering you're suffering too. And that's kind of a condition for this really cohesive social collective. The origin of</p>
+<p>multisellular life of bodies and minds</p>
+<p>is rooted in the capacity to know and feel what the cell next door is knowing</p>
+<p>and feeling. Life as we know it comes</p>
+<p>from interconnection which is partially happening through bio electricity as Dr. Hammershag's little B bofields demonstrate. But mitochondria are more than just tiny socialites. They're actually known as the powerhouse of the cell where our energy literally comes from. And that process is quite</p>
+<p>remarkable. Mitochondria, I suspect they're the portal between the immaterial</p>
+<p>existence of the mind, right? Like your experience and the way it manifests, the way it materializes or crystallizes into biochemistry. There's a very real</p>
+<p>process that happens when you eat food, right? And food becomes who you are. like you assimilate food, you metabolize food and the way this happens is you take food which is really crystallized sunlight right so there's like energy that comes from this nuclear reactor in outer space it's beamed down absorbed slowed down by a green leaf somewhere and then by slowing down that energy that energy from the sun immaterial energy right photon and uh you know wave</p>
+<p>or particle then that gets crystallized into biochemistry which is food then you eat that and mitochondria deep in your</p>
+<p>cells dematerialize that energy back into an immaterial form, an energy</p>
+<p>gradient, right? And then it's that immaterial gradient. Basically, the charge just like mitochondrial like little batteries. That charge is basically the secret of complex life because that charge then can be used for making ATP, the kind of cellular energy currency, but then also for regulating ions, for making hormones. And so once mitochondria energize, they do all sorts of things, like dozens of different things. And that happens by dematerializing biochemistry into this</p>
+<p>force, this electrochemical force. And</p>
+<p>somehow the mind kind of arises from</p>
+<p>this. And if you block the flow of energy through mitochondria, the mind just ends, right? That's when you lose consciousness. I love this description of the transformation of energy from sunlight into food. That light is slowed down</p>
+<p>until it's crystallized into matter. And</p>
+<p>then mitochondria transform it again. I</p>
+<p>picture it like Martin's candle being</p>
+<p>lit again and again inside trillions of</p>
+<p>cells, an evershifting dance between</p>
+<p>matter and energy. While mitochondria might be the secret of complex life, they can also be a</p>
+<p>source for complicated illness. We know for a fact that when the mitochondria don't flux energy properly or smoothly, when there's higher resistance to energy flow through the mitochondria because of a mitochondrial defect, for example, everything in the body doesn't work quite well. People don't feel quite well. They're tired all the time. And so it it alters a human experience. I discovered a few things that really led me to think we need to</p>
+<p>understand this like mitochondria is a portal is a is going to be a way to</p>
+<p>ground this, right? to connect the mind and the body and maybe to connect the human experience, right? What you could call like the spiritual experiences or, you know, the human mind. Ground this into biology. Understand how how these two things are, you know, expressions of of a deeper movement perhaps. And and bridging those is going to be the path to transforming human health. If we're</p>
+<p>looking for a mechanical answer to Martin's decades old question of why some people can heal and some can't,</p>
+<p>mitochondria would be a good place to start. Defects affecting mitochondria</p>
+<p>are a clear determinant of how well a</p>
+<p>body can function at a subcellular level. But as I think is always the case, that's only part of the solution.</p>
+<p>I don't necessarily think we need [music] to like pinpoint the molecular mechanism or that there is a molecular mechanism individual differences but we've been pursuing the hypothesis uh that [music] part of those interindividual differences what makes people unique how we respond to life [music] and our own you know movement is</p>
+<p>the way energy flows to your mitochondria. So there's scientific ways to ask that [music] question to connect the human experience with the mitochondria. So we did three studies so far that have shown yes there's a connection. People who [music] report more positive experiences like feeling more optimistic, right? Feeling like your life has purpose, feeling [music] connections to other human beings, those things seem to be associated with more</p>
+<p>mitochondria and mitochondria that are better at [music] transforming energy. If you want to be a little reductionist about this, you can say maybe it's like people have more mitochondria that flux [music] energy better. They have a more positive outlook on life and then it kind of snowballs into, you know,</p>
+<p>leading [music] them to a better, more positive life with more positive experiences and it starts [music] with the biology. Very reductionist. Or you could say, no, there's something else in the person. Maybe it's in the environment and their wonderful family and their [music] friends, right? That is bringing about those positive experiences. And then those positive experiences they shape the mitochondria. So your mitochondria become shaped [music] by your experiences. So those are two possibilities right? And if you look at animal studies you can test those those [music] directions in mice you can like cause them stress and you see this changes the mitochondria. And if you do like more positive things and it als it changes the mitochondria the other way. So you can say ah the experience [music] is changing the mitochondria. Uh and then you can say well let's change the mitochondria see if it changes [music] the behavior and yes it does. So the animal studies the mechanistic stuff shows it's a birectional relationship.</p>
+<p>In other words, the experience [music] changes the biology and the biology</p>
+<p>changes the experience. It's a chicken and egg question. Or Dr. Bard suggests</p>
+<p>it could be what scientists call a third unobserved variable. Maybe it's an</p>
+<p>underlying movement of consciousness causing both observed effects. the body</p>
+<p>and the mind then would be two expressions of a deeper truer reality</p>
+<p>and then like asking causal questions here maybe becomes a little futile</p>
+<p>but unearthing this connection right discovering this connection that my lab has has done between the mind and the mitochondria I think is has pointed us in a very concrete way and a a scientifically grounded way to a deeper</p>
+<p>you know potentially an energetic</p>
+<p>dimension to to what um to what life is</p>
+<p>and to where health comes from and what allows what drives a healing process.</p>
+<p>The science clearly shows the link between the mind and mitochondria, between energy and well-being.</p>
+<p>Richard Hamishflag's work takes this connection and asks a different question. What I'm really interested in</p>
+<p>is the possibility that there's an</p>
+<p>overlooked surveillance system in the</p>
+<p>body that is engaged 247 in detecting</p>
+<p>where imbalances occur. I've always been</p>
+<p>interested in the idea that East Asian</p>
+<p>medicines can detect imbalances and</p>
+<p>correct them before they get to be</p>
+<p>clinical signs and symptoms. So, Western</p>
+<p>medicine is far less developed in terms</p>
+<p>of detecting subtle diagnostic indices</p>
+<p>of early imbalance in the body. And we</p>
+<p>know that the body does have these kind</p>
+<p>of surveillance systems. Uh the immune</p>
+<p>system is constantly doing the natural</p>
+<p>killer cells or they're called an immune system are naturally doing surveillance to look for invading pathogens, viruses</p>
+<p>or bacteria and to identify them and</p>
+<p>trigger ways of neutralizing them. We</p>
+<p>know that there's a system in the nucleus where specific sets of proteins</p>
+<p>have evolved with the function of</p>
+<p>constantly walking along the DNA and and</p>
+<p>identifying where spontaneous mutations</p>
+<p>have occurred or maybe not so</p>
+<p>spontaneous may be caused by</p>
+<p>environmental toxins. and they identify</p>
+<p>these these changes and when they're not</p>
+<p>too severe they can correct them. An autonomic system that keeps the body healthy, a kind of upkeep and maintenance that's constantly happening below our awareness. And Dr. Hamishlag's</p>
+<p>proposition is that the approach of East Asian medicine and bofield healing is</p>
+<p>much more attuned to these pre-diagnostic goings on than western</p>
+<p>medicine which is more focused on fixing</p>
+<p>what's broken. the machine model. Once again, we focus so much in western medicine on</p>
+<p>pathogenesis. But what has come to be called saludagenesis is to study ways in which the body keeps</p>
+<p>us healthy, not just to study ways in</p>
+<p>which the body breaks down. So, as a</p>
+<p>thought experiment, what I've been</p>
+<p>spending a fair amount of time on lately</p>
+<p>is what if there's a monitoring system</p>
+<p>in the body that can identify very early</p>
+<p>imbalances in the body which somehow</p>
+<p>acupuncture and other types of Asian</p>
+<p>medicine have realized with much more</p>
+<p>subtle diagnostic systems than we have in the west can identify where these</p>
+<p>are. This system would operate in part at the cellular level going back to the idea that we heard from Dr. Bard of mitochondria allowing cells to become</p>
+<p>social and interconnected aware and Dr.</p>
+<p>Hamishlag has an idea of how they're</p>
+<p>communicating. My sense is that this system if it</p>
+<p>exists could well exist within the</p>
+<p>fashcia. What exists between the tissues? It's what provides a kind of</p>
+<p>cushioning and support for all our tissues. [music] It's wrapped around all the tissues and we know that this</p>
+<p>collagen based fascial system [music]</p>
+<p>seems to be part of a whole body</p>
+<p>network. The collagen touches all the</p>
+<p>cells in the body and collagen can kind</p>
+<p>of tap in to a signal that [music] cells</p>
+<p>may release that is indicative of their</p>
+<p>state of health. So if this signal is [music] found to be</p>
+<p>in a certain homeodnamic range, there's</p>
+<p>a healthy range for any condition, any</p>
+<p>activity in the body. And if it's within</p>
+<p>a healthy range, then it's recognized as</p>
+<p>such. If the signal becomes weaker</p>
+<p>within a certain range, [music] the body can detect it and correct it, bring it</p>
+<p>back into the healthy range. If the signal then becomes weaker yet which is</p>
+<p>indicative [music] of a more serious problem but still</p>
+<p>subclinical [music] then we need something like acupuncture or perhaps a</p>
+<p>bofield therapy that can detect it and</p>
+<p>boost this endogenous healing system</p>
+<p>[music] back so that it's strong enough again to</p>
+<p>correct the system. If the signal gets</p>
+<p>so weak that it can't be corrected, then</p>
+<p>that's [music] when the clinical signs and symptoms begin and that's when we</p>
+<p>need uh much more robust biomedical</p>
+<p>interventions. [music] This interconnection and flow is a beautiful expression of Dr. Hammershag's work with bofields, a fluid and overlapping system [music] of information and interaction. And the</p>
+<p>promise of energy medicine is that it</p>
+<p>might function [music] as a kind of bridge between that self- sustaining world and the more reactive interventions of conventional medicine.</p>
+<p>You've heard us talk about fashca before. The system Dr. Hamishlag is</p>
+<p>describing is the same system we heard about from Dr. Andrew An in our episode</p>
+<p>on chi and meridians. It's a system that</p>
+<p>has surprisingly only recently been discovered in the west and one of the key figures in its discovery was Dr.</p>
+<p>Neil thesis. The idea that there's an</p>
+<p>interstitial space between things is nothing new. That's been known for centuries. Wherever you have a capillary, the smallest blood vessel, bringing nutrients into a tissue and</p>
+<p>taking away waste products from the cells in that tissue, there's [snorts] a space between the capillary and the cells of the tissue or organ. That's an</p>
+<p>interstatial space. You know, nutrients come in across it, waste products go out across it to be carried away. No one's</p>
+<p>ever thought that those were likely to be interconnected in some fashion. I'm not sure it was a question anyone even asked. Dr. Thesis's involvement in the discovery was a combination of new technology, decades of expertise, and</p>
+<p>office space. As a liver pathologist, I was actually at the hospital I was working at then, Beth Israel Medical Center in New York. I was in the gastrointestinal</p>
+<p>medicine division. And since I was located there, when two guys in the department, the director David Carlock and one of his senior fellows, uh, Petrus Benas, they had gotten a new</p>
+<p>fangled endoscope. And when they looked</p>
+<p>into the bile duct, the tube that</p>
+<p>connects the liver to the small intestine, they saw these light filled</p>
+<p>spaces separated by these dark bands.</p>
+<p>And they didn't know what that was. And since pathologists know what things look like microscopically, and I was just down the hall, they knocked on my door and showed me these pictures and said, &quot;What do you think this is?&quot; And I said, &quot;I don't know. I've never seen anything like that.&quot; And I knew what the wall should look like. And I showed them under the microscope that there are no spaces there. It's just this densely layered collagen, which is hard and stiff. And there are occasional cracks in it. because when you make a slide of a thick piece of collagen, it's it's so stiff that it'll crack with the blade when you're making thin sections to make a microscope slide. And so [snorts] I</p>
+<p>showed them the cracks and said that's artifact as I was taught and I've taught decades of residents and fellows. But they kept seeing these spaces when they looked in it. And so something was changing between the living tissue and</p>
+<p>what I was seeing in essentially dead tissue on the slide. And eventually we</p>
+<p>figured out that in the living tissue,</p>
+<p>the dark bands they saw are thick collagen bundles. [snorts] And the</p>
+<p>bright spaces obviously must be fluid fil between them disappear when we process the slide because when you take out a tiny bit of tissue, let's say for a biopsy, the water drains out of it.</p>
+<p>And then when you process it with</p>
+<p>formaldahhide or such stuff to make a</p>
+<p>slide, you further tighten things up. So</p>
+<p>the process of making microscope slides which we thought reflected in all cases</p>
+<p>what the normal living anatomy was in</p>
+<p>this case was not and those cracks we</p>
+<p>saw those were the remnants of the fluid fil spaces now considered to be the third circulatory system of the body. The interstition was a major scientific discovery and as I said before it's kind</p>
+<p>of shocking it has only recently been identified. Many now believe that this</p>
+<p>bodywide network allows energy and</p>
+<p>information to flow through a conductive fluid. And and the other really powerful</p>
+<p>thing has been that when the interstitial anatomy first got published, every time I met someone who</p>
+<p>was coming from a different culture of health and healing, whether it was an acupuncturist or someone doing energy</p>
+<p>healing work or someone from an</p>
+<p>Ayurvedic tradition, Tibetan doctors who do pulse diagnosis, whatever they were</p>
+<p>talking about, when I would show them the anatomy, they'd say, &quot;Yes, that's what we've been talking about.&quot; They just didn't have a precise microscope-based western scientific way of describing it. But all the things they talk about, they use, you know, poetic metaphors to</p>
+<p>describe what they're feeling or</p>
+<p>intuiting or experiencing in their own</p>
+<p>bodies or in those the bodies of people</p>
+<p>they're working with. How can they describe it if they don't have western science? Well, they're going to use poetic language. But when I show this to</p>
+<p>them, they go, &quot;That's what we're talking about.&quot; And Dr. Hammershag sees it as further</p>
+<p>evidence of this monitoring and maintenance system at the cellular level. I would love to talk to Neil thesis at</p>
+<p>some point because he talks about the</p>
+<p>interstitium as a as a fluid flow</p>
+<p>system, which makes a lot of sense in</p>
+<p>terms of the support or cushioning</p>
+<p>system of the fashcia. And so I'm</p>
+<p>wondering if these are really two</p>
+<p>different ways of describing the same</p>
+<p>system. Neil the describes in his papers</p>
+<p>the interstitium which is these fluid</p>
+<p>flow channels is bounded by collagen</p>
+<p>fibers. So what we're talking about with the fashcia is just looking at the the walls</p>
+<p>if you like the boundary of these</p>
+<p>systems. So it makes a lot of sense and</p>
+<p>it's not just a kind of passive support</p>
+<p>system for the tissues. Evolution doesn't evolve a whole body system</p>
+<p>without it also being a means of</p>
+<p>carrying information. That's what I really believe. Admittedly, we've gone deep into the science here. Billions of years of evolution, the transformation of energy into matter and back again. interconnecting biofields communicating about the body's health or dysfunction and constantly repairing it. And finally, the remarkable story of an</p>
+<p>interstitial network that might make all of this transfer of energy and information possible. It's been quite a</p>
+<p>trip. But as we conclude this part of the episode, I want to return to the</p>
+<p>idea that we are not molecular machines.</p>
+<p>All of these explanations are scientific attempts to find direct cause and effect biological mechanisms for energy and</p>
+<p>energy healing. As compelling as these arguments are, they're not the whole</p>
+<p>story. The dominant metaphor in our culture for</p>
+<p>living things is that they are machines.</p>
+<p>But they're not machines because machines always do exactly the same thing over and over and over again. And if the environment changes, the machine can't adapt and change itself. But if a</p>
+<p>complex system has too much randomness,</p>
+<p>then there's no self-organization. Ants don't make colonies. It's just a bunch of ants running around. But if [snorts] it's too little change, then when a food</p>
+<p>source runs out and there was a food line between the colony and the food source and the ants are carrying the food back and forth. And everyone knows what an ant food line looks like. It's really contained and really well organized. But there's always 2 to 4% of</p>
+<p>the ants that aren't following the line. And it's those ants that are likely to</p>
+<p>bump into a food source somewhere else. And so that low-level randomness, the ants not following the line, those are</p>
+<p>what allow the colony to adapt and change when the environment changes. And this is how life progresses. And [snorts] so we shouldn't be expecting bodies to act as machines. Part of the problem with Western medicine is we treat them like machines because that's our big metaphor. And we don't understand when they're not behaving like that. Even when we see something like an energy healing experience, that's not a machine-like phenomenon.</p>
+<p>Let's return to Martin Pequard and his presentation in 2025 in upstate New</p>
+<p>York. And let's return to our original</p>
+<p>persistent question. What is energy? We've heard this term a</p>
+<p>lot. It's part of uh a lot of our lives. What is actually energy? Um this</p>
+<p>simplest and I think most accurate definition I've heard is this. Energy is the potential for change. And that's true at the biological level, at the psychological level, at the societal level. Dr. Bard plays another video to demonstrate his point. You can watch the full video at phenomenahhealing.com.</p>
+<p>On the screen is a petri dish with a random scattering of small black dots. I</p>
+<p>wanted to show uh this this experiment.</p>
+<p>These are little metal beads in oil,</p>
+<p>right? Completely inert metal beads in oil in a petri dish. Nothing's happening. Right now, you infuse energy</p>
+<p>into it. Electricity in this case. This</p>
+<p>is what happens. The dots begin to move and connect.</p>
+<p>Lines and patterns begin to form and grow. It selforganizes. It [music] moves. It has this behavior.</p>
+<p>There's even some kind of healing effect happening where you get a reorganization. This is all purely spontaneous by injecting energy into a simple system. Right? This system is so simple. It's two components, metal beads and oil. Imagine if you have a system</p>
+<p>that has like 100,000 proteins, [music]</p>
+<p>20,000 genes with all sorts of variants with lipids and the you know the complexity is amazing. You just flow a bit of energy and then it feels like something consciousness.</p>
+<p>The capacity for change [music] is the capacity to heal. But even more, it's</p>
+<p>the capacity for [music] life and for</p>
+<p>consciousness. Energy and change is a flame, a stick</p>
+<p>turning to [music] smoke, a trillion cells and bofields in constant</p>
+<p>communication and cooperation. It is the</p>
+<p>dynamic flow of life. And when we see</p>
+<p>ourselves not as individual machines,</p>
+<p>but as part of [music] this everflowing cosmic size process, we're able to tap [music] into the potential for healing.</p>
+<p>Next, I'll talk with my friend and expert Meredith Sprangle. And for our</p>
+<p>final episode of the season, a special guest, Jonathan Cohen.</p>
+<p>[music]</p>
+<p>So, hi Meredith and welcome Jonathan,</p>
+<p>our special guest. Um, Jonathan, it'd be great if you can share with our audience</p>
+<p>a little bit about yourself. Absolutely. Uh, my name is Jonathan Cohen. I'm the executive producer and</p>
+<p>co-host of the podcast Alex Breakdown.</p>
+<p>I'm also a writer and uh I've been an</p>
+<p>energy worker for almost 25 years.</p>
+<p>Well, you then you're the perfect guest, special guest to have here on our last</p>
+<p>episode for this season. You know, this</p>
+<p>idea that we're not molecular machines.</p>
+<p>That is a a big statement. It's one that</p>
+<p>I knew ever since I was a little girl.</p>
+<p>But would love to get each of your reactions when you hear that statement.</p>
+<p>What comes to mind? And if we're not molecular machines, what are we?</p>
+<p>Meredith. Oh, I have to start. Uh-huh. You do. Ladies first. [laughter]</p>
+<p>I mean, I have a few reactions when I hear this. I also always base it in my experience. And I was just at a at a consciousness conference. And what I thought was really interesting is that I presented a little bit of the energy healing research and someone raised</p>
+<p>their hand and said, &quot;What's the mechanism?&quot; Like, &quot;How can we deduce this down into a cause and effect model?&quot; And I think that we keep going back to this idea of we're being machines even in these frontier sort of</p>
+<p>areas of exploration like consciousness. So when I hear that I I think back into</p>
+<p>all the research we've been doing and all the conversations we've had where we see it is this as we call a symphony of influences a number of different effects across both the phenomenological and the</p>
+<p>neurological and the cellular level that things are happening that that wouldn't happen if we were machines. And I think that Neil said it really well that um we</p>
+<p>are really resilient beings. I mean, that's kind of what he talked about in the in his section of the podcast and</p>
+<p>that machines don't necessarily adapt and conform to the environment or the</p>
+<p>situation in the way that humans do. Uh,</p>
+<p>what about you, Jonathan? Well, I love the symphony of influences and</p>
+<p>the engineering side of my brain does</p>
+<p>believe that there is an understandable</p>
+<p>pattern and level of systems that we are</p>
+<p>influenced by, but it is far more complex than we're able to deduce simply</p>
+<p>from our understanding of how a machine</p>
+<p>operates, right? It's not simply</p>
+<p>command in and and result. There are so</p>
+<p>many factors and we're not really able to understand them all because many of them are going beyond our five senses. Yeah. And it seems like we need to accept complexity. You know, I think as a society we love to find the fast food</p>
+<p>lane with an answer that is measurable</p>
+<p>and provable and simple. And it's a much</p>
+<p>more beautiful complex world than that. And I think we have to start to zoom out and embrace it. You know, if we accept</p>
+<p>that the body is an energetic</p>
+<p>uh system and it's a symphony of</p>
+<p>influences that keep it healthy. What are the</p>
+<p>ramifications of accepting that idea and</p>
+<p>changing our lens? I think this comes</p>
+<p>back to when you said that it made me come back also to what Richard talked about this salutenic versus pathogenic</p>
+<p>model of how we think about health. What</p>
+<p>makes up our health is a number of different factors. Even just the container or the room in which we are healed or receive our or or live our</p>
+<p>lives. And this also fun comes back to Wayne, right? Wayne talked about how what was it 80% of health doesn't happen</p>
+<p>in a hospital room or or doesn't happen in a in a doctor's office. And so I</p>
+<p>think that as we move forward in understanding the complexities which make us healthy beings, I think there'll be not necessarily so much focus on that</p>
+<p>doctor's office visit, but sort of the the container in which we live our lives and and the inputs that we allow in and don't allow in. Yeah. No, I love that. It's definitely a whole different perspective that isn't</p>
+<p>just around the doctor's visit. It's around how we live our life. And I even</p>
+<p>think that there'll be new kinds of quote unquote doctors, healers that blur</p>
+<p>the lines between physical, mental, and</p>
+<p>you know, from the book I wrote, Your Brain on Art, that I co-authored,</p>
+<p>there's a lot of research around the aesthetics and how we create those</p>
+<p>spaces are absolutely against everything</p>
+<p>we know around how human beings heal. I mean, it</p>
+<p>doesn't take someone thinking about ourselves as energetic beings to know that the lights in hospitals do not help</p>
+<p>anyone's circadian rhythm get the rest</p>
+<p>they need in order to recuperate their</p>
+<p>body. And then when you get into, oh, we</p>
+<p>also might be energetic beings,</p>
+<p>not might be, we are energetic beings, then we have to think about, well, does the human believe that they can heal?</p>
+<p>What are they carrying forward? what are they saddled with that may not be able</p>
+<p>to be picked up on a CT scan that may be impacting their ability to uh go through</p>
+<p>the next process in life and what are they living for you know what is the purpose and meaning and how does that influence us in terms of our biological</p>
+<p>energy and what we're producing physically uh there are many doctors</p>
+<p>that say they can give you all the treatment in the world and yet you won't actually get better without something</p>
+<p>shifting in your life. So I think we're just at the beginning stages of looking at it from the physical spaces which absolutely need to be changed in order to support people to the psychological</p>
+<p>and then the energetic beyond that. Yeah, absolutely. And one of the through lines I think throughout all of these episodes have been that that relational</p>
+<p>aspect of healing. Whether it's the relation you have to yourself and taking</p>
+<p>some accountability and responsibility</p>
+<p>to the relationship to the people you're</p>
+<p>working with on your healing team. And</p>
+<p>I've always thought relationship is all there is in life, the relationship we have with each other and within ourselves and certainly to the natural world. But what do you think about the</p>
+<p>relational aspect of healing and how important is that Meredith?</p>
+<p>Yeah, I mean I think uh we have a lot like as you said we have a lot of examples of of how important this is and</p>
+<p>as they we've talked a lot about therapeutic alliance and and how important that is to facilitate healing</p>
+<p>even within doctor's offices with acupuncturists with a healer. We have</p>
+<p>millennia of healing rituals that are based on an interpersonal engagement or an interpersonal ritual that will facilitate a healing response. So there's something about the ability to align with someone and to be witness that can allow us to surrender. And when</p>
+<p>I say by surrender is kind of to give ourselves over to something larger than ourselves that can help that healing process. So you can find that in churches, you can find that with healers, but you can also find that with a good friend and a good doctor. I think</p>
+<p>a lot of the time either when we're sick or even if just we need guidance or help the the ability for someone to witness</p>
+<p>and also allow you to surrender to the process you need to heal yourself is really like key in life. I think therapeutic alliance is one of those those key elements not just for energy</p>
+<p>healing but even in just everyday life to feel seen and heard can then apparently affect our our mitochondria like Martin Bard talked about in the episode. Right. So he says that even our</p>
+<p>social relationships can show up in the in the way our mitochondria look. And I believe he also has a paper where he showed um where they looked at people</p>
+<p>who were lonely when they died and they showed that their mitochondria were shaped differently. So there something</p>
+<p>very interesting about how our social relationships are showing up in our body. I mean beautifully articulated by Meredith and I think the idea of belief.</p>
+<p>What do we believe as we're going in to</p>
+<p>any healing process or practice? And how</p>
+<p>does that therapeutic alliance change or</p>
+<p>help us change that? You know, so many people who are struggling with something think that that's all that there is or that that's all that they're capable of.</p>
+<p>And sometimes that requires something to</p>
+<p>shift very profoundly in them in order</p>
+<p>to imagine a life where they're not struggling with whatever they're dealing with. Um, and I do think that healing and that change comes from someone who</p>
+<p>has faith in the process, who believes</p>
+<p>in them and that they can feel that and knowing that we don't live only within</p>
+<p>the confines of our body, that we can feel other people, that we know and we can sense their intention, we can we are impacted by uh how they think about us.</p>
+<p>I think having a practitioner, whether</p>
+<p>it be a doctor or someone in what's</p>
+<p>considered an alternative field really</p>
+<p>hold that space and intention for us,</p>
+<p>has a physiological impact. Yeah. I just spoke to a woman who had fourth stage cancer who said as the</p>
+<p>doctors were about to tell her her</p>
+<p>prognosis, she stopped them and said, &quot;Stop. Do not tell me that. I want to</p>
+<p>live and I am going to make sure I live.</p>
+<p>I'm going to take this on as a project.</p>
+<p>I'm going to change I mean she just went into a dissertation to the doctors</p>
+<p>preventing them from giving her the information that she knows would have affected the cells in her body.</p>
+<p>We spoke to Dr. Ellen Langanger from</p>
+<p>Harvard on the podcast and she describes</p>
+<p>that a prognosis is simply a</p>
+<p>mathematical probability based on</p>
+<p>everyone else. They're not able to consider all the multiple variables of</p>
+<p>that individual. So, while you should</p>
+<p>never necessarily outright ignore the</p>
+<p>fact that you may have a specific condition that needs um treatment,</p>
+<p>limiting yourself to the statistical average doesn't take into account our unique situation and what's possible for</p>
+<p>us. Yeah, we you know, we really have to understand how uniquely individual each</p>
+<p>one of us is. And I think society has</p>
+<p>reduced us to kind of the common denominator um norms. And I think we're about to</p>
+<p>understand that that's really done some damage at multi levels, including</p>
+<p>neurodeiversity, what's considered normal. I mean, we just need to</p>
+<p>understand and personalize what unique</p>
+<p>beings we are and embody that and get</p>
+<p>start by getting to know ourselves really well. And then everyone that we come in relationship with needs to</p>
+<p>respect and honor that too. So, I don't know if you know, but in like arthritis and a lot of different diseases, certain medications were for certain people and they don't really know why. Um, and they've actually done a few research studies where they use the Chinese personalized diagnosis to</p>
+<p>try to understand through that and through some metabolomics, which is a biological way to look at your biological system to see if there are</p>
+<p>certain personality types that the medication worked better for. And they have demonstrated that and they have demonstrated that with uh arthritis and</p>
+<p>with and things like the prognosis of diabetes that actually the Chinese medicine personality types could be more predictive. So, it is interesting to think that there might have been systems that have been around forever that have taken into account more of our individual characteristics when thinking about health. I think we're just at the very beginning of trying to understand how we can</p>
+<p>individualize care and start to break</p>
+<p>out and really understand this symphony</p>
+<p>of influences</p>
+<p>to our advantage. Right? It can be overwhelming to think there's so many influences, we're never going to be able to isolate them. But as we start to understand how to work with some of these like the bofield like energy</p>
+<p>medicines and personalities and</p>
+<p>customize I think the opportunity for us</p>
+<p>to get substantially better care improves. Speaking of um the</p>
+<p>experience, I love the mystery that Martin Pequard describes uh in not knowing whether it's the mitochondria affecting experience or the other way around which what does it</p>
+<p>bring up for you Jonathan? Does it have to be one or the other? Right? Can't it just be this birectional</p>
+<p>influence? We have a certain amount of raw energy that's influenced by our</p>
+<p>biology, our just general, you know, makeup, influenced by our sleep and our</p>
+<p>environmental uh influences. It's in</p>
+<p>influenced by our nutrition. And then it's birectional with how we feel, what</p>
+<p>we think. And it's this information transit back and forth that's either going to optimize or increase decrease.</p>
+<p>And I think what we try to do in in a</p>
+<p>mechanistic approach is say which one is it versus understanding that it is relational. Back to that word relation. Absolutely agree. It's a constant dancing back and forth in exchange. I mean I have a silly example. The thing that comes to mind is a basketball player who has hurt themselves on</p>
+<p>defense and they're limping a little bit and as soon as they get the ball on offense, all of a sudden they're sprinting down the court. Now, is it</p>
+<p>adrenaline? Sure. But it's also the excitement of a moment that they're have</p>
+<p>anticipation for. And I think when we</p>
+<p>look at our energy level, when we look at our ability to heal, how much of our</p>
+<p>mindset and beyond mindset, how much of the</p>
+<p>patterns in our life that we have taken on that we're not even remembering that we have taken on and these when we think about an energetic field live</p>
+<p>around us, we embody them. We are connected to them in a way that we don't even realize that they're impacting us both physically and mentally to be able</p>
+<p>to thrive, to be able to be excited by</p>
+<p>things or to interpret them in a way that's going to help us be energized.</p>
+<p>You know, I love a quote that came up uh during this series. This idea about I</p>
+<p>don't end at my skin, which really plays</p>
+<p>into what we're talking about here in terms of how these interactions are</p>
+<p>relational. But what what's your gut,</p>
+<p>Meredith, when I say I don't end at my skin? Yeah, this is what I'm going back to when Neil in the episode was talking body or cells. Body or cells. Yeah.</p>
+<p>Individual collective. Individual collective. I think that we are those ants in a colony and there is something that's collectively happening and if we understand more about how we're all connected, we can understand more about how we create these more healthy societies and how we how we can foster a</p>
+<p>different way and a different approach to how we live in this collective space.</p>
+<p>I couldn't agree more that we we don't end at our skin. The question is how far</p>
+<p>out do we go and how far should we be</p>
+<p>considering that when looking at any one</p>
+<p>condition, right? For me,</p>
+<p>I never really spoke about my experiences as an energy worker because</p>
+<p>it can become so esoteric that you forget actually what's happening in the moment. And I think we're in this</p>
+<p>collection of mirrored systems. What Neil found about the interstitium and</p>
+<p>how that works is likely similar to how</p>
+<p>we operate outside of our skin. Meaning</p>
+<p>that we're likely a part of this network of moving information and how it all</p>
+<p>works is still being determined if that makes sense. Absolutely. You know, one thing I want to say about not ending in our skin. I once was at an I think it was an art</p>
+<p>exhibit where someone had shown that our</p>
+<p>heart field, the electromagnetic field</p>
+<p>extends, you know, six feet. And so they</p>
+<p>had circles drawn. And when you think about those people you surround yourself with within six feet, our heart fields</p>
+<p>are connecting. And that was one aha</p>
+<p>moment for me. I started thinking about</p>
+<p>how I feel when certain people are in my</p>
+<p>field versus others in my field. And so</p>
+<p>if you start paying attention into this</p>
+<p>idea that we don't end at our skin, it</p>
+<p>gets really fun. One step beyond that,</p>
+<p>if you go into a quiet space and are</p>
+<p>slightly meditative and you pull one of</p>
+<p>those people into your space, meaning from a distance, you think of that person, you conjure them in your mind,</p>
+<p>you bring them as close to you as you</p>
+<p>can, you'll have that same experience of</p>
+<p>being near them. Is that simply recreated in your mind? Are you bringing them close in some other way? How do we</p>
+<p>explain that? H beautiful. I just want</p>
+<p>to play you one last thing from Neil thesis and get your reactions.</p>
+<p>Yeah. When a healer, an energy healer enters a</p>
+<p>room and there's someone awaiting them hoping</p>
+<p>for treatment in the room.</p>
+<p>Their electromagnetic field extends far</p>
+<p>[music] beyond the limits of their skin. their field enters the room way before they get there and encounters the patient way [music] before the patient sees them or they see the patient. And so when they come in closer and closer [music] and closer,</p>
+<p>it's not two separate fields. It's a single merged field [music] out of the two. And we're not talking about one impacting on the other. We're talking</p>
+<p>about how do they assemble into a single field and how does that function? and then how are both fields changed as you move apart at the end of a treatment.</p>
+<p>That's a very different way of looking at things than western medicine [music]</p>
+<p>where we are separate and I come in and</p>
+<p>impact you in a certain way.</p>
+<p>It's beautiful. So that was to me one of the the most profound moments in all of our interviews because it it really honed in for me why people continue to</p>
+<p>go to healers and be so fascinated by this this ephemeral moment where this true deep healing occurs. It's not just a onedirectional thing. It is a it is a is it an interlin process where both people are reconnecting to that blueprint and to and back to a place of</p>
+<p>of health and wellness. It also makes me</p>
+<p>think of shifts start to happen as soon as you set the intention or make the commitment to do something that it's not simply in</p>
+<p>the room itself. It's the process leading up and that you know often in in</p>
+<p>very uh substantial transformation.</p>
+<p>There's a leadup process where you can have a ritual of starting to set an intention before bed that I want to reintegrate all the parts of myself that may have been lost along the way or setting an intention for what it may even imagine being like to to have</p>
+<p>overcome whatever challenge you're going through. And that process will start to happen far before you ever step into the</p>
+<p>room. And this makes me think about Ron's story. So, I don't know if you remember in episode 4, Ron at one point, he's has</p>
+<p>this deep PTSD and he asks God, take me</p>
+<p>and Jesus comes and says, &quot;It's not your time.&quot; And then the next day, someone</p>
+<p>says, &quot;I'm going to connect you with this healer.&quot; So, he had already started in that in that that story. I'm getting goosebumps. I'm such a I'm such a nerd. Because I think that is what you're talking about. That's the representation of it, Jonathan. He said, &quot;I want to I want God to take me.&quot; and he had this image, be it from himself or outside of himself, it doesn't really matter, that set the attention to heal. And then he gets Maggie's number and by the time he gets to Maggie, he's ready for that that</p>
+<p>change. Yeah. And that's how synchronicity works, right? It's magic.</p>
+<p>I mean, but it was only because he said,</p>
+<p>&quot;I'm ready that she appeared.&quot; So, you</p>
+<p>know, across the six episodes, and Meredith, you've been with me through all of them. You know, we've talked about the study at cancer with MD</p>
+<p>Anderson. We've talked about Reiki, chronic pain, Chiang, the PTSD with</p>
+<p>veterans, the healer patient bond, and</p>
+<p>now a little bit about the biology of</p>
+<p>energy. What pattern have you seen emerge across</p>
+<p>all of this that you'd love to share? There are a number of things. I mean I think one is that not to be really depressing but we know so much and know so little. We've learned a lot. We've learned a lot about how the bofield therapist was impacting the cells. We learned that Reiki had a trajectory of</p>
+<p>change that really was impacting people's neostritis. We've learned all all of this very interesting information about howqi could be being carried through the interstitium and then how healing touch</p>
+<p>practitioners could fundamentally change PTSD outcomes. And that's a lot of information. But I I think what it shows to me is we're at a tipping point where we're reimagining what not only science can look like, but what like I think we've talked about like the really true interpersonal connection and how much it matters for fostering health and wellness. You know, I actually think this is a super exciting time. The fact that we we have</p>
+<p>all this input and we don't have all the</p>
+<p>answers and it's a time to use both the</p>
+<p>science and our imagination to maybe</p>
+<p>have some new hypotheses to move forward</p>
+<p>with. I think a lot of people will be</p>
+<p>surprised just how much is being influenced by</p>
+<p>perception and what it takes to shift perception</p>
+<p>which for many people is quite a bit</p>
+<p>different than we've been taught. We've been taught to silence the mind but actually having small moments of aha and</p>
+<p>observation</p>
+<p>can likely be the most powerful influence. So when I think about energy, I think about what is the animating force within each of us.</p>
+<p>Some people think about it as connected to our soul. But what really actually brings us enjoyment, what brings us</p>
+<p>excitement, what captures our interest.</p>
+<p>And where this leads to in a very</p>
+<p>unexpected way is the nature of the</p>
+<p>unique individual. Whether that be their</p>
+<p>soul, whether that be their path, whether that be their purpose. We we</p>
+<p>spoke to RZswan Verk who said um every</p>
+<p>time he moved off of his life's path, he</p>
+<p>went into the hospital. He found himself in the hospital. He kept getting this message. He's a serial entrepreneur. He's a video game designer. And he kept getting this message that he was supposed to write. He was supposed to write. And every time he kept investing</p>
+<p>in companies and making investing his full-time uh focus, he kept having these</p>
+<p>health problems. And he said he believed</p>
+<p>that he was being guided to do the next phase of his life. Does that apply to everyone in every circumstance?</p>
+<p>We we each have limits of the physical world and we have to have jobs and we have to take care of things. But is it possible that each one of us has a unique bioprint, a unique signature,</p>
+<p>things that [snorts] we're meant to do in this world, that doing them will help</p>
+<p>us feel more animated and alive and</p>
+<p>therefore our biology will follow.</p>
+<p>You know, I absolutely believe that we're here to live only the life that we're supposed to live and part of life's journey is to figure out what</p>
+<p>that is. And the universe is our friend</p>
+<p>kind of when we get off the path, you know, first it pokes us and if we don't</p>
+<p>uh move a different direction, it shouts at us and then eventually yuck I think</p>
+<p>can cause um a health crisis for us to</p>
+<p>reexamine, you know, what are we on our life's</p>
+<p>path? Um, you know, when I think of the</p>
+<p>word energy, I think of possibility</p>
+<p>or change. Um,</p>
+<p>because</p>
+<p>I think that's the the force I see it as. It's a it's a force for possibility</p>
+<p>or a force for us to change. So Meredith, let's</p>
+<p>being that this is our final episode and</p>
+<p>we want to we're talking about energy. What does energy come to mean for you</p>
+<p>a bit like you? I think that the energy</p>
+<p>that heals is is reconnecting you to is</p>
+<p>some sort of potential, right? And I think that what Jonathan was saying was really resonating with me about purpose.</p>
+<p>And I'm going to go a roundabout way, but we're going to get back to an answer. But when energy healers say they're they're not healing you, but connecting you to the channel that heals, they're reconnecting you to your blueprint, right? And they're reconnecting you to your purpose. And so when when I was hearing Jonathan tell that story, I was like, well, maybe that is the key to what is why we're so</p>
+<p>intrigued by and why we're there's this this enhanced interest in energy healing</p>
+<p>because it's that reconnection to purpose. And so what is the energy? And</p>
+<p>maybe that energy is the potential and the connection, like you said, the possibility and and where you go with that energy is really how it lands with you and how it moves you to your purpose. What that specific field or</p>
+<p>intention looks like. I can't categorize it, but I know we know what it feels like when we feel energy. And I know we know what it feels like when we've been moved by it. And I think usually what that results in is is a reconnection with self, the world, and to purpose.</p>
+<p>And that's the most important part is how [clears throat] we feel it. We may not we may never know what it is. But</p>
+<p>Jonathan, um, what is the word energy to</p>
+<p>you in this context? I'd agree with what's been said and and</p>
+<p>just like the most simplest form for me, it's the animating force of life, of the</p>
+<p>universe. What makes us come alive, feel alive,</p>
+<p>feel energized to sorry to use the the</p>
+<p>word to define the word. I know that's a</p>
+<p>no no, but I I don't think it is one</p>
+<p>thing. And there we come back to the complexity, right? It is never actually</p>
+<p>one thing. It is a symphony of things.</p>
+<p>Yeah. And it's interesting hearing you talk, Jonathan, right? because an animating force that that you know historically was a god or a spirit you</p>
+<p>know and it's interesting to see how things have changed over millennia and how as we've you know as I've talked</p>
+<p>I've talked a lot about agency and as how we reintegrate agency back into the way that we see the world and our perspective it does become an animating force as opposed to um some sort of a god that is that is fueling you and if we bring this back to medicine for a minute you know imagine a medical</p>
+<p>system that can help you identify if</p>
+<p>you've veered off of your life's path in</p>
+<p>some way or if you've ever known what your life's path is. You know, there's the uh GAT 7, I forget if that's for</p>
+<p>depression or anxiety. That's like the nine questions. Imagine the form or that</p>
+<p>helps you understand where you are in um</p>
+<p>achieving your life's goals, whatever</p>
+<p>those may be. I love that as the intake</p>
+<p>form in a doctor's office or whatever</p>
+<p>we're going to call that office in the future. Uh instead of asking your medical history, you know, who had cancer in your family, etc., but to ask</p>
+<p>where you are on your life's journey. I think this gets back to something that we just intuitively know. We intuitively know there's some sort of larger field we're connected to that or that we're connecting to. And so that's why um so</p>
+<p>many people are drawn to this area of research and so many people are are drawn to new ways of knowing because the</p>
+<p>science isn't meeting people where they're at or how they understand this interconnectedness. Which is why I think it's important we need more scientists who look at things</p>
+<p>from different perspectives. Right? You're a researcher, but you can step outside and see things from a different</p>
+<p>perspective. And I think that's how we're going to get to some of these breakthroughs is by having more divergent types of researchers and scientists that are willing to ask different questions</p>
+<p>and willing to question a a system.</p>
+<p>Right. I think that science has become too much of a culture when science was only supposed to be a method. I think we</p>
+<p>can't separate our whole selves from our science. And I think that's something that I live by. And so although I have a</p>
+<p>method to use, I also bring my whole self and my whole experience when I when I think about how to do research or or what research needs to be done. Absolutely. And I think if everyone brought their whole self to everything we do, we would start to see a lot of</p>
+<p>overlaps and and a lot of problems get</p>
+<p>solved. So thanks for being you.</p>
+<p>And thanks for being you, Ivy. And thank you, Jonathan, for being with us. It was terrific. Really a pleasure.</p>
+<p>Throughout this season of phenomena, we've heard stories of suffering and salvation. We've followed the science as it explores the mysteries of energy and life from our body's cells to the fabric</p>
+<p>of the universe. I came into this project with a belief that there are forces at work in our bodies and beyond that we don't yet fully understand and sometimes can't</p>
+<p>even detect. But what I've learned is that these forces might not be so unknown after</p>
+<p>all. They might simply have gotten set</p>
+<p>aside. Maybe in our passion to explain the world and find answers, we forgot what</p>
+<p>generations before us had discovered and</p>
+<p>what our bodies already know. That there</p>
+<p>is energy inside us and between us.</p>
+<p>energy with the power to [music] heal.</p>
+<p>To continue this journey, join us at</p>
+<p>phenomena healing.com where you'll find</p>
+<p>[music] even more stories, resources,</p>
+<p>and details on the docu series. There's</p>
+<p>so much more to explore here. And please</p>
+<p>stay curious. [music] I'm Ivy Ross and this has been Phenomena, the science and stories of</p>
+<p>energy healing.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../interviews/2026-07-02-The-Mitochondria-Doctor-This-Reverses-Gray-Hair-Makes-You-Feel-Young-Again-Fixes.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                            <a rel="next" href="../interviews/2026-08-17-No-1-Mitochondria-Psychobiologist-Mitochondria-Create-Consciousness-and-Near-Dea.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../interviews/2026-07-02-The-Mitochondria-Doctor-This-Reverses-Gray-Hair-Makes-You-Feel-Young-Again-Fixes.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a rel="next" href="../interviews/2026-08-17-No-1-Mitochondria-Psychobiologist-Mitochondria-Create-Consciousness-and-Near-Dea.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        <script src="../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+    </body>
+</html>

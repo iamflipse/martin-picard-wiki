@@ -1,0 +1,7 @@
+[book]
+title = "Martin Picard: Mitochondria and Energy"
+authors = ["iamflipse"]
+description = "Plain-language wiki of 24 long-form YouTube interviews with Martin Picard, Columbia University, 2019 to 2026."
+
+[build]
+charset = "utf-8"
